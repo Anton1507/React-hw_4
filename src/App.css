@@ -1,0 +1,38 @@
+.users { 
+  width:60%;
+  height:80vh;
+  border:1px solid #ff000f;
+  padding: 10px;
+  box-sizing: border-box;
+  margin:20px;
+
+}
+.users__container{
+  width: 100%;
+  display:flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  overflow: hidden;
+}
+.card {
+  width: 100px;
+}
+.card p { 
+  margin:5px;
+}
+.name {
+  display: flex;
+  width: 100%;
+}
+input{
+  display:block;
+  margin-bottom: 10px;
+}
+
+.new_part , .winner{
+  
+  border:1px solid #ff000f;
+  padding: 10px;
+  box-sizing: border-box;
+  margin:20px;
+}
